@@ -1,38 +1,362 @@
-.App {
+body {
+  background-color: rgb(228, 228, 228);
+  margin-top: 125px;
+  font-family: fangsong;;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 920px;
+  height: 537px;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f2e3247-62d6-4d91-8b66-596cdde4d62b/deghnw4-6c357f36-6bbe-4b31-b898-03c05c0a5c9b.jpg/v1/fit/w_828,h_466,q_70,strp/wwe_hall_of_fame_2021_template_1_by_v_mozz_deghnw4-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvMWYyZTMyNDctNjJkNi00ZDkxLThiNjYtNTk2Y2RkZTRkNjJiXC9kZWdobnc0LTZjMzU3ZjM2LTZiYmUtNGIzMS1iODk4LTAzYzA1YzBhNWM5Yi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.H3v7cbidgjjZLkutTy_Zn_JDfZ6MtQLu8KOXbQfawWk');
+  background-size: cover;
+}
+
+
+.navbar {
+  width: 600px;
+  height: 50px;
+  margin-top: -415px;
+  position: fixed;
+}
+
+.img {
+  width: 286px;
+  height: 100px;
+  background: url('https://s3-alpha-sig.figma.com/img/b1d6/b846/4677c42db8f2493a6e278e009238b63d?Expires=1703462400&Signature=LOqZlr3tDtTh~3Mny-~pJQZnYJfvTG3ZBcWwJtScAT7dVstjtk3xHK-6MYsJIPje5jRfWjvJNz6CAlpKFl8T9VlHKGESUQUOv-bNzQFiWAH2O1dyBPw33CDaPHzHEeNFiRFJYEZRZSNmRZhf832AC1JHo3wn7lFGKKFo-gKYMNO~w4m4VKC9bgyRfpdsIf~cEzbeZZ4UHr5GmdYQ6bTG6qDUFIpaX2gfeMT9fTO6al7R7ZWg6LsG4sYO~Z2fdqBa1~2sq3Yoq4ztu-0VIyWdhahqG~nawI2vGSYg-xOYwbJSbTcPhguWJBgTu-1rLEOJeUX9G2eOHTuwCW9DMA5bBQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid #D3AA4C;
+  margin-left: 300px;
+  flex-shrink: 0;
+}
+
+.date {
+  width: 131px;
+  height: 97px;
+  margin-left: 605px;
+  margin-top: -99px;
+}
+
+.date h2 {
+  margin-left: -7px;
+  color: #D3AA4C;
+  text-align: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+span {
+  font-size: 20px;
+}
+
+h4 {
+  margin-top: -31px;
+  margin-left: 26px;
+  color: #D3AA4C;
+}
+
+h5 {
+  margin-left: 10px;
+  margin-top: -18px;
+  font-size: 18px;
+  color: #D3AA4C;
+}
+
+.container {
+  width: 321px;
+  height: 28px;
+  flex-shrink: 0;
+  background-color: #D3AA4C;
+  margin-left: -579px;
+  margin-top: -151px;
+  letter-spacing: 1px;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.container h6 {
+  margin-top: 2px;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 4px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head {
   display: flex;
-  flex-direction: column;
+  background-color: #D3AA4C;
+  width: 570px;
+  height: 28px;
+  margin-left: 331px;
+  margin-top: -153px;
+  position: fixed;
+}
+
+.h-six {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 610px;
+}
+
+.h-six h6 {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+sub {
+  font-size: 9px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.box {
+  margin-top: 163px;
+  margin-left: -579px;
+  width: 317px;
+  height: 262px;
+  background-color: #D3AA4C;
+  position: fixed;
+  border-radius: 10px;
+  border: 1px solid #D3AA4C;
+  background: #2F2E2C;
+  position: fixed;
+}
+
+.gold {
+  margin-top: 0px;
+  color: #D3AA4C;
+  text-align: center;
+}
+
+.buy-sell {
+  height: 20px;
+  margin-top: -11px;
+  width: 317px;
+}
+
+.buy {
+  display: flex;
+}
+
+.buy p {
+  display: flex;
+  background-color: #D3AA4C;
+  font-size: 8px;
+  width: 9px;
+  height: 12px;
+  border-radius: 2px;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+h3 {
+  margin-top: -1px;
+  margin-left: 7px;
+  font-size: 17px;
+  color: #D3AA4C;
+}
+
+.sell {
+  display: flex;
+  margin-top: -40px;
+  margin-left: 236px;
+}
+
+.sell p {
+  display: flex;
+  background-color: #D3AA4C;
+  font-size: 8px;
+  width: 9px;
+  height: 12px;
+  border-radius: 2px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.dets {
+  margin-top: 12px;
+  width: 234px;
+  height: 44px;
+}
+
+.red {
+  width: 120px;
+  height: 38px;
+  background-color: #DE5B56;
+  border-radius: 4px;
+  margin-left: 10px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.green {
+  width: 120px;
+  height: 38px;
+  background-color: #5FA147;
+  border-radius: 4px;
+  margin-left: 190px;
+  margin-top: -37px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.low-high {
+  width: 234px;
+  height: 20px;
+  margin-top: 0px;
+}
+
+.low {
+  margin-left: 11px;
+  width: 36px;
+  margin-top: 0px;
+  height: 21px;
+  background-color: #DE5B56;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: fixed;
+}
+
+.nmbrs {
+  display: flex;
+  margin-left: 39px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.high {
+  margin-left: 192px;
+  width: 36px;
+  margin-top: -22px;
+  height: 21px;
+  background-color: #5FA147;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nmbrs-1 {
+  display: flex;
+  margin-left: 228px;
+  color: white;
+  margin-top: -21px;
+}
+
+.deatail-section {
+  margin-top: 164px;
+  margin-left: 329px;
+  width: 568px;
+  height: 260px;
+  position: fixed;
+}
+
+.contents{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 568px;
+  height: 35px;
+  border:  1px solid #D3AA4C;
+  color: white;
+  position: f;
+}
+
+.contents-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 568px;
+  height: 35px;
+  border: 1px solid #D3AA4C;
+  margin-top: 15px;
+  color: white;
+}
+
+.contents-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 568px;
+  height: 35px;
+  border: 1px solid #D3AA4C;
+  margin-top: 20px;
+  color: white;
+}
+.contents-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 568px;
+  height: 35px;
+  border: 1px solid #D3AA4C;
+  margin-top: 26px;
+  color: white;
+}
+
+.contents-4{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 568px;
+  height: 35px;
+  border: 1px solid  #D3AA4C;
+  margin-top: 20px;
+  color: white;
+}
+
+.deatail-section h1{
+  font-size: 20px
+}
+
+.bottom{
+  margin-left: -651px;
+    width: 171px;
+    height: 20px;
+    background-color: #D3AA4C;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    margin-top: 483px;
+    margin-left: 10px;
+    width: 99px;
+    height: 20px;
+    background-color: #D3AA4C;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+
+.bottom-last{
+  width: 790px; 
+  height: 20px;
+  background-color: #80704D;
+  color: white;
+  margin-top: 483px;
 }
